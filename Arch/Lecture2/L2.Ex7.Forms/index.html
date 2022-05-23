@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Forms</title>
+</head>
+
+<body>
+    <form>
+        <fieldset>
+            <legend>Customer Details</legend>
+            <label>
+                First Name
+                <input type="text" placeholder="George"><br><br>
+                Last Name
+                <input type="text" placeholder="Devis">
+            </label> <br><br>
+
+            <label>
+                Male
+                <input type="radio" name="gender">
+                Female
+                <input type="radio" name="gender">
+                Other
+                <input type="radio" name="gender">
+            </label><br><br>
+
+            <label>
+                Preferred contact method:
+                Email
+                <input type="radio" name="contact">
+            </label>
+            <label>
+                Phone
+                <input type="radio" name="contact">
+            </label><br> <br>
+            <label>
+                Email
+                <input type="email" placeholder="your@email.com">
+            </label><br><br>
+            <label>
+                Phone
+                <input type="number" placeholder="+359885266266"><br>
+            </label><br>
+
+            <label>
+                Town
+                <select name="town">
+                    <option value="sofia">Sofia</option>
+                    <option value="plovdiv">Plovdiv</option>
+                    <option value="varna">Varna</option>
+                    <option value="bourgas">Bourgas</option>
+                </select>
+            </label><br><br>
+
+            <label>
+                Age
+                <input type="number">
+            </label><br><br>
+
+            <label>
+                Programming Language
+                <input type="text">
+            </label><br><br>
+
+            <label>
+                <textarea name="moreinfo" cols="30" rows="10" placeholder="More information"></textarea><br><br>
+            </label>
+
+            <label>
+                <input type="checkbox" required>
+                I agree with the Terms and Conditions
+            </label><br><br>
+
+            <label>
+                <input type="submit" name="Send">
+            </label>
+
+        </fieldset>
+    </form>
+</body>
+
+</html>
