@@ -1,0 +1,54 @@
+html {
+    font-family: Helvetica, sans-serif;
+}
+body {
+    font-size: 16px;
+    line-height:1.5;
+    background-color: white;
+}
+
+h1,h2,h3,h4,h5,h6 {
+    font-family: Georgia, serif;
+}
+
+blockquote {
+    border-left: solid 3px rgb(221,221,221);
+    font-style: italic;
+    padding-left: 25px;
+}
+
+p#right {
+    display: block;
+    text-align: right;  
+}
+
+ul { list-style-type: square;
+}
+
+ul>ul { list-style-type: disc;
+}
+
+ul>ul>ul {list-style-type: circle;
+}
+
+table {
+    table-layout: auto;
+    width: 100%;
+    text-align: left;    
+}
+
+th {
+    background-color: rgb(200, 200, 200);
+}
+
+tr.odd{
+    background-color: rgb(221,221,221);
+}
+
+tr.even{
+    background-color: white;
+}
+td, th{
+    outline: 1px solid rgb(200, 200, 200);
+    padding: 4px;
+}
