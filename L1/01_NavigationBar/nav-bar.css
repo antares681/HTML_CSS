@@ -2,11 +2,11 @@ body {  margin: 0px;
         padding: 0px;
         background-color: #CCCCCC;}
 
-ul{      background-color: #444;
-         text-align: center;
-         padding: 0px;
-         margin: 0px;
-         list-style:none;}
+ul{     background-color: #444444;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        list-style:none;}
 
 
 li {    display: inline-block;
@@ -16,7 +16,7 @@ li {    display: inline-block;
         padding: 20px;}
 
 a   {   text-decoration: none;
-        text-decoration-color: #ffffff;}
+        color: #ffffff;}
 
 
 
