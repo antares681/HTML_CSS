@@ -8,13 +8,11 @@ html {
 
 body h1 {
     font-family: "Great Vibes", cursive;
-    line-height: 1.2;
-    
+    line-height: 1.2;   
 }
 
 h2 {font-family: "Great Vibes", sans-serif;
     line-height: 1.2;
-    font-size: 500;
     font-weight: bold;
 }
 

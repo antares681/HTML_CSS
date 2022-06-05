@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Joan&display=swap');
+
+html {
+    font-family: Helvetica, sans-serif;
+    padding-left: 40px;
+}
+
+header { 
+    border-bottom: 2px solid black;
+    padding-bottom: 25px;
+    padding-top: 40px;
+}
+
+h1, nav, ul, li {
+    display: inline-block;
+}
+
+h2 {
+    font-family: Joan, sans-serif;
+}
+
+nav {
+    padding-left: 40px;
+    font-size: 0.7em;
+}
+
+p {
+    font-size: 0.7em;
+}
+
+a {
+    text-decoration: none;
+    color: green; 
+    padding: 10px;
+    cursor: pointer;
+}
+
+a:hover {
+    color: red;
+    text-decoration: underline;
+}
+
+a:active {
+    color: rgb(192, 6, 6);
+}
