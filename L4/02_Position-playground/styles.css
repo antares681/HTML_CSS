@@ -1,0 +1,26 @@
+@import url('https://pro.fontawesome.com/releases/v5.10.0/css/all.css');
+
+.viewport1, .viewport2 {
+   position: relative;
+   height: 50vh;
+ }
+
+.viewport1 {    
+   background-image: linear-gradient(to right, rgb(25, 94, 157), rgb(66, 204, 161));
+}
+
+.viewport2 {
+   background-image: linear-gradient(to right, #994879, #d58316);
+}
+
+.card {
+   display: block;
+   position: absolute;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+}
+
+img {
+   width:280px;
+}

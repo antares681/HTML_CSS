@@ -1,0 +1,13 @@
+main {
+    display: inline;
+    position: absolute;
+    width: 700px;
+    height: 500px;
+    margin: 50px;
+}
+
+img.new {
+    position: relative;
+    top: -200px;
+    right: 150px;
+}
